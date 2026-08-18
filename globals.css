@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-hub-cream text-hub-black;
+}
+
+.section-heading {
+  @apply font-display text-3xl sm:text-4xl font-bold text-hub-black;
+}
+
+.section-kicker {
+  @apply inline-block text-hub-orange font-semibold tracking-widest uppercase text-xs sm:text-sm mb-2;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center rounded-full bg-hub-orange px-6 py-3 text-sm sm:text-base font-semibold text-white shadow-warm transition-colors hover:bg-hub-orange-dark;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center rounded-full border-2 border-white/80 bg-transparent px-6 py-3 text-sm sm:text-base font-semibold text-white transition-colors hover:bg-white hover:text-hub-black;
+}
